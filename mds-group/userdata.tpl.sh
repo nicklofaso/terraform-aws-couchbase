@@ -62,7 +62,7 @@ rpm -i ~/couchbase.rpm
 ### Mount data drive
 
 echo "Formatting data drive..."
-DEVICE=/dev/xvdb
+DEVICE=/dev/sdb
 DATADIR=/mnt/data
 
 mkfs -t ext4 $$DEVICE
